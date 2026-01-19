@@ -1,0 +1,6 @@
+{
+  "name": "claudy-slack-bot",
+  "version": "1.0.0",
+  "description": "Claude Code idle 알림을 Slack DM으로 전송",
+  "hooks": "hooks/hooks.json"
+}
