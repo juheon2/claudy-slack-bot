@@ -106,7 +106,7 @@ git clone https://github.com/juheon2/claudy-slack-bot.git ~/claudy-slack-bot
 
 ### 3. 환경변수 설정
 
-플러그인은 다음 환경변수를 필요로 합니다. `~/.claude/.env` 파일에 설정하거나, 쉘에서 export합니다.
+다음 환경변수를 `~/.claude/.env` 파일에 설정하거나, 쉘에서 export합니다.
 
 ```bash
 SLACK_BOT_TOKEN=xoxb-...           # Slack Bot Token
@@ -116,7 +116,7 @@ CLAUDE_ALARM_DELAY=60              # 알림 대기 시간 (초, 기본값: 30)
 
 ## 사용법
 
-플러그인이 활성화된 상태에서 Claude Code를 사용하다가 일정 시간 입력이 없으면, 다음과 같은 정보를 포함한 DM을 Slack에서 받을 수 있습니다.
+hooks 설정 후 Claude Code를 사용하다가 일정 시간 입력이 없으면, 다음과 같은 정보를 포함한 DM을 Slack에서 받을 수 있습니다.
 
 * 마지막 사용자 요청 (필요 시 앞뒤 일부만 표시)
 * Claude의 마지막 응답
